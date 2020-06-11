@@ -62,7 +62,7 @@ proc main() =
     glDebugMessageCallback(glDebugOutput, nil)
     glDebugMessageControl(GL_DONT_CARE, GL_DONT_CARE, GL_DONT_CARE, GLsizei(0), nil, GLboolean(DEBUGGAME))
 
-    gameObj.state = GAME_MENU
+    gameObj.state = GAME_ACTIVE
     var
         deltaTime :float = 0.0f
         lastFrame :float = 0.0f

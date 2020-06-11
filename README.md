@@ -1,7 +1,7 @@
 # nimgl-breakout
 Learnopengl 2D Breakout Game ported to nim
 
-# prerequisites
+## Prerequisites
 
 - glfw
 
@@ -14,7 +14,7 @@ sudo apt install libglfw3-dev
 sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 
-# Run
+## Run
 
 ```
 nimble run nimgl_breakout
