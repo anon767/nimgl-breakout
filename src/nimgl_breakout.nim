@@ -88,4 +88,6 @@ proc main() =
     ressources.clear()
     glfwTerminate()
 
-main()
+
+when isMainModule:
+  main()
