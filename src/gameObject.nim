@@ -1,7 +1,7 @@
 import glm
 import texture
 import spriteRenderer
-type GameObject* = ref object
+type GameObject* = ref object of RootObj
         position*: Vec2f
         size*: Vec2f
         velocity*: Vec2f

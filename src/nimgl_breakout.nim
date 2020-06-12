@@ -6,7 +6,7 @@ import game
 
 let
     SCREEN_WIDTH : int32 = 800
-    SCREEN_HEIGHT : int32 = 800
+    SCREEN_HEIGHT : int32 = 600
     DEBUGGAME : bool = true
 
 let gameObj: Game = Game(keys: initTable[int32, bool](), width: SCREEN_WIDTH, height: SCREEN_HEIGHT)
